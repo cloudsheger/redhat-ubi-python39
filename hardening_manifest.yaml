@@ -1,0 +1,29 @@
+apiVersion: v1
+
+name: redhat/python/python39
+
+tags:
+- '3.9'
+- latest
+
+args:
+  BASE_IMAGE: redhat/ubi/ubi9
+  BASE_TAG: '9.2'
+
+labels:
+  org.opencontainers.image.title: RHpython39
+  org.opencontainers.image.description: "Python 3.9 available as container is a base platform for building and running various Python 3.9 applications and frameworks."
+  org.opencontainers.image.licenses: "Red Hat Universal Base Image EULA"
+  org.opencontainers.image.url: "https://developers.redhat.com/topics/python"
+  org.opencontainers.image.vendor: "Redhat"
+  org.opencontainers.image.version: '3.9'
+  mil.dso.ironbank.image.keywords: python, programming language
+  mil.dso.ironbank.image.type: opensource
+  mil.dso.ironbank.product.name: python
+
+resources: []
+
+maintainers:
+- name: "cloudsheger"
+  username: "jemal"
+  email: "jemalmoh.cloud@gmail.com"
